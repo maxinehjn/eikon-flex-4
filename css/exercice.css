@@ -1,17 +1,74 @@
 /* 1. exercice-flex */
+.exercice-flex .container {
+  display: flex;
+}
 
 /* 2. exercice-flex-2 */
+.exercice-flex-2 .container {
+  display: flex;
+  align-items: center;
+}
 
 /*3. exercice-align-content-1 */
+.exercice-align-content-1 .container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
 
 /*4. exercice-align-content-2 */
+.exercice-align-content-2 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-content: space-between;
+}
 
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+  display: flex;
+}
+
+.exercice-flex-grow-1 .container .element-red {
+  flex-grow: 1;
+}
 
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercice-flex-grow-2 .container .element-green {
+  flex-grow: 1;
+}
 
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container {
+  display: flex;
+}
+
+.exercice-flex-grow-3 .container .element {
+  flex-grow: 1;
+}
 
 /*8. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+
+.exercice-all-in .container .element {
+  flex-grow: 1;
+}
