@@ -14,11 +14,9 @@
 /*3. exercice-align-content-1 */
 .exercice-align-content-1 .container {
   display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
 }
 /*4. exercice-align-content-2 */
 .exercice-align-content-2 .container {
@@ -27,6 +25,7 @@
   flex-wrap: wrap;
   justify-content: center;
   justify-items: stretch;
+}
 
 /*5. exercice-align-content-3 */
 
