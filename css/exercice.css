@@ -28,10 +28,20 @@
 }
 
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-content: space-between;
+}
 
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container{
+display: flex;
 
 /*7. exercice-flex-grow-2 */
+
 
 /*8. exercice-flex-grow-3 */
 
